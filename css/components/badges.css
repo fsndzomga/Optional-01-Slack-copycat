@@ -1,0 +1,30 @@
+.badges {
+  color: #8D818B;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 0.5px solid #e4dee3;
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 45px;
+  margin-top: 0.8em;
+}
+
+.badges p {
+  margin-bottom: 0px;
+  margin-left: 2.1px;
+}
+
+.badges h2 {
+  margin-top: 0.6em;
+  font-weight: bold;
+  color: black;
+
+}
+
+.badges i {
+  font-weight: bold;
+  padding-right: 0.3em;
+  color: black;
+  font-size: 20px;
+}

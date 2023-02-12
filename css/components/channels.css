@@ -1,0 +1,81 @@
+.channels {
+  height: 100vh;
+  width: 15vw;
+  background-color: #4B3949;
+}
+
+.channel {
+  color: #8D818B;
+  display: flex;
+  padding-left: 0.8em;
+  justify-content: left;
+  align-items: center;
+  margin: 0.4em;
+}
+
+.channel p {
+  margin-bottom: 0px;
+  margin-left: 2.1px;
+}
+
+.channel-title {
+  font-weight: bold;
+  color: white;
+  display: flex;
+  padding-left: 0.8em;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.channels h2 {
+  margin-top: 0.8em;
+  padding-left: 0.5em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.channel-title i {
+  padding-right: 0.9em;
+}
+
+.channel-title h6 {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.channels-user {
+  color: #8D818B;
+  display: flex;
+  padding-left: 0.8em;
+  justify-content: left;
+  align-items: center;
+  margin: 0.4em;
+}
+
+.channels-user i {
+  color: #1DE5BD;
+  font-size: 10px;
+  margin-right: 0.5em;
+
+}
+
+.channels-user h6 {
+  margin-bottom: 0px;
+
+}
+
+.channel-active {
+  color: white;
+}
+
+#principal-user {
+  margin-bottom: 2em;
+}
+
+.channels-user.user-inactive i {
+  color:#A49CA3;
+  font-size: 10px;
+  margin-right: 0.5em;
+
+}

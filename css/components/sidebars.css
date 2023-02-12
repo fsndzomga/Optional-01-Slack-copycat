@@ -1,0 +1,27 @@
+.sidebars {
+  height: 100vh;
+  width: 76px;
+  background-color: #251C24;
+}
+
+.sidebars #lw {
+  color: white;
+  background-color: #514850;
+  margin: 1em;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidebars #sl {
+  color: gray;
+  margin: 1em;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  transition: 5ms;
+}
+
+.sidebars #sl:hover {
+  color: white
+}

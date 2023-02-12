@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+    <div class="slack-container d-flex m-0 p-0">
+      <div class="sidebars">
+        <p id="lw" class="rounded-1">LW</p>
+        <p id="sl">SL</p>
+      </div>
+      <div class="channels">
+        <h2>Le Wagon</h2>
+        <div class="channels-user" id="principal-user">
+          <i class="fa-solid fa-circle"></i>
+          <h6>arthur-littm</h6>
+        </div>
+        <div class="channel-title">
+          <h6>Channels</h6>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="channel">
+          <i class="fa-brands fa-slack"></i>
+          <p>general</p>
+        </div>
+        <div class="channel">
+          <i class="fa-brands fa-slack"></i>
+          <p>help</p>
+        </div>
+        <div class="channel channel-active">
+          <i class="fa-brands fa-slack"></i>
+          <p>design</p>
+        </div>
+        <div class="channel">
+          <i class="fa-solid fa-lock"></i>
+          <p>friday-drinks</p>
+        </div>
+        <div class="channel">
+          <i class="fa-solid fa-lock"></i>
+          <p>climbing</p>
+        </div>
+        <div class="channel-title">
+          <h6>Direct messages</h6>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="channels-user">
+          <i class="fa-solid fa-circle"></i>
+          <h6>Victor hugo</h6>
+        </div>
+        <div class="channels-user">
+          <i class="fa-solid fa-circle"></i>
+          <h6>Nelson mandela</h6>
+        </div>
+        <div class="channels-user user-inactive">
+          <i class="fa-solid fa-circle"></i>
+          <h6>Barack obama</h6>
+        </div>
+        <div class="channels-user user-inactive">
+          <i class="fa-solid fa-circle"></i>
+          <h6>Evariste galois</h6>
+        </div>
+
+      </div>
+      <div class="chat flex-grow-1">
+        <div class="badges">
+          <i class="fa-brands fa-slack"></i>
+          <h2>design</h2>
+        </div>
+
+        <div class="message">
+          <img src="https://kitt.lewagon.com/placeholder/users/arthur-littm" alt="arthur-littm" class="avatar">
+          <div class="message-content">
+            <h6>arthur-littm</h6>
+            <p>Hey everyone 👋 We’ve just launched a new Le Wagon UI Kit 🚀 👉 https://uikit.lewagon.com/</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <img src="https://kitt.lewagon.com/placeholder/users/cveneziani" alt="cveneziani" class="avatar">
+          <div class="message-content">
+            <h6>cveneziani</h6>
+            <p>yay! 🤘</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <img src="https://kitt.lewagon.com/placeholder/users/pdunleav" alt="pdunleav" class="avatar">
+          <div class="message-content">
+            <h6>pdunleav</h6>
+            <p>That looks great, why don't you add a .card like on dribbble with a cool hover effect? 😎</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="barangerbenjamin" class="avatar">
+          <div class="message-content">
+            <h6>barangerbenjamin</h6>
+            <p>Does it work on Linux? 🤓</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <img src="https://kitt.lewagon.com/placeholder/users/papillard" alt="papillard" class="avatar">
+          <div class="message-content">
+            <h6>papillard</h6>
+            <p>Hi designers! A little tutorial I’ve made (french only, 🇬🇧 version coming soon!!!) covering:</p>
+
+              <p>- UX data (GA, Hotjar) and how to use it to re-think your sitemap</p>
+
+              <p>- Advanced UX workflow (Sketch > Invision > Abstract)</p>
+
+              <p>👉 https://kitt.lewagon.com/knowledge/tutorials/ux_advanced</p>
+              <p>Hope you’ll enjoy 📺 !</p>
+          </div>
+        </div>
+
+
+        <form>
+          <div class="mb-3 messageholder">
+            <input type="message" class="form-control" id="email" placeholder="Type your message...">
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+
+    <!-- Bootstrap JavaScript library -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
